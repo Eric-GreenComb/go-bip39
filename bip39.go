@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/tyler-smith/go-bip39/wordlists"
+	"github.com/Eric-GreenComb/go-bip39/wordlists"
 	"golang.org/x/crypto/pbkdf2"
 )
 
@@ -45,7 +45,7 @@ var (
 )
 
 func init() {
-	SetWordList(wordlists.English)
+	SetWordList(wordlists.ChineseSimplified)
 }
 
 // SetWordList sets the list of words to use for mnemonics. Currently the list
